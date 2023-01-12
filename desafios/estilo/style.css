@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 * {
     margin: 0px;
     padding: 0px;
+}
+:root{
+    --fonte1: 'Staatliches', cursive;
 }
 header{
     background-color: black;
@@ -11,11 +16,13 @@ header{
 html, body{
     background-color: bisque;
     min-height: 100vh;
+    font-family: var(--fonte1);
     
 }
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 5vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -45,12 +52,13 @@ section.imagem{
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.623);
-
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
 }
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
 }
